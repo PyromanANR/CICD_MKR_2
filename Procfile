@@ -1,1 +1,1 @@
-web: gunicorn Site.wsgi --log-file - --log-level debug
+web: gunicorn CICD_MKR_2.wsgi --log-file - --log-level debug
